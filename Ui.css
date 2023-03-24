@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Cairo', sans-serif;
+
+}
+body{
+    background-color: #1C0045;
+}
+
+#TaskOne{
+    position: relative;
+    width: 130vh;
+    height: 60vh;
+    top: 19vh;
+    left: 44vh;
+    background-color: #FFFFFF;
+}
+#Title{
+    position: relative;
+    color: whitesmoke;
+    text-align: center;
+    background-color:#532D92;
+    height: 7vh;
+    
+}
+.material-symbols-outlined{
+    position: absolute;
+    top: 1vh;
+    left: 120vh;
+    cursor: pointer;}
