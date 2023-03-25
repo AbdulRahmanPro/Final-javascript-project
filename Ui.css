@@ -17,6 +17,7 @@ body{
     top: 19vh;
     left: 44vh;
     background-color: #FFFFFF;
+    border-radius: 20px;
 }
 #Title{
     position: relative;
@@ -25,9 +26,52 @@ body{
     background-color:#532D92;
     height: 7vh;
     
+    
 }
 .material-symbols-outlined{
     position: absolute;
-    top: 1vh;
+    bottom: -1vh;
     left: 120vh;
-    cursor: pointer;}
+    cursor: pointer;
+    height: 54px;
+}
+
+.Elements_design{
+    padding: 20px 10px 40px; 
+    margin: 20px; 
+    direction:rtl;
+    height: 80px;
+    background-color: #F9F7F9;
+    box-shadow: 10px 5px 5px  rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+}
+.data{
+    font-size: 12px;
+}
+.sizeIcon{
+    height: 20px;
+}
+
+#test{
+    position: relative;
+    top: 130%;
+    left: 37%;
+    font-size: 12px;
+
+
+}
+img{
+    cursor: pointer;
+    
+}
+#locate{
+    position: relative;
+    top:130%;
+    left: 38%;
+    font-size: 12px;
+}
+.locategrubIcon{
+    justify-content: space-between;
+
+}
