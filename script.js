@@ -32,7 +32,7 @@ function getLastElement(array) {
   }
 }
 
-var CrateTask = function (removeTask) {
+var CrateTask = function (removeTask) { 
   const tasktitle = prompt("أدخل مهمتك")
     if( tasktitle != null ){
       const linkIcon = [
